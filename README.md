@@ -1,4 +1,4 @@
-# 🎨 One Monokai Darker
+# 🎨 One Monokai Pro
 
 A beautiful dark theme for Visual Studio Code inspired by [One Monokai](https://github.com/azemoh/vscode-one-monokai) color scheme, enhanced with bold keywords and a refined color palette for superior code readability.
 
@@ -24,14 +24,14 @@ A beautiful dark theme for Visual Studio Code inspired by [One Monokai](https://
 
 ### Via VS Code Marketplace
 1. Open **Extensions** sidebar panel in VS Code (`Ctrl+Shift+X`)
-2. Search for `One Monokai Darker`
+2. Search for `One Monokai Pro`
 3. Click **Install**
 4. Click **Reload** to reload VS Code
 5. Go to **File > Preferences > Color Theme** and select **One Monokai Darker**
 
 ### Via Command Line
 ```bash
-code --install-extension zzhua.one-monokai-darker
+code --install-extension zzhua095.one-monokai-pro
 ```
 
 ## 🎨 Color Palette
@@ -80,7 +80,7 @@ You can customize this theme by adding the following to your `settings.json`:
 
 ## 🤝 Contributing
 
-Found a bug or have a suggestion? Please open an issue on [GitHub](https://github.com/your-username/vscode-one-monokai-darker/issues).
+Found a bug or have a suggestion? Please open an issue on [GitHub](https://github.com/Huazzi/vscode-one-monokai-darker/issues).
 
 ## 📄 License
 
@@ -94,9 +94,9 @@ This theme is licensed under the [MIT License](LICENSE).
 
 ---
 
-**Enjoy coding with One Monokai Darker!** 🚀
+**Enjoy coding with One Monokai Pro!** 🚀
 
 If you like this theme, please consider:
-- ⭐ Starring the [GitHub repository](https://github.com/your-username/vscode-one-monokai-darker)
-- 📝 Leaving a review on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=your-publisher-name.one-monokai-darker)
+- ⭐ Starring the [GitHub repository](https://github.com/Huazzi/vscode-one-monokai-darker)
+- 📝 Leaving a review on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=zzhua.one-monokai-pro)
 - 🐦 Sharing it with your developer friends

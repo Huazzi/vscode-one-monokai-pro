@@ -1,8 +1,16 @@
 # 🎨 One Monokai Darker
 
-A beautiful dark theme for Visual Studio Code inspired by the classic Monokai color scheme, enhanced with bold keywords and a refined color palette for superior code readability.
+A beautiful dark theme for Visual Studio Code inspired by [One Monokai](https://github.com/azemoh/vscode-one-monokai) color scheme, enhanced with bold keywords and a refined color palette for superior code readability.
 
-![Theme Preview](https://via.placeholder.com/800x400/1e2227/ffffff?text=One+Monokai+Darker+Theme+Preview)
+## 📸 Screenshots
+- C/C++
+![C/C++](assets/screenshop1.png)
+
+- Python
+![Python](assets/screenshop3.png)
+
+- JS
+![JS](assets/screenshop2.png)
 
 ## ✨ Features
 
@@ -23,7 +31,7 @@ A beautiful dark theme for Visual Studio Code inspired by the classic Monokai co
 
 ### Via Command Line
 ```bash
-code --install-extension your-publisher-name.one-monokai-darker
+code --install-extension zzhua.one-monokai-darker
 ```
 
 ## 🎨 Color Palette
@@ -55,42 +63,6 @@ code --install-extension your-publisher-name.one-monokai-darker
 - Great for Python, Go, Rust, and other languages
 - Markdown support with proper emphasis
 
-## 📸 Screenshots
-
-### JavaScript/TypeScript
-```javascript
-// Bold keywords make structure clear
-class UserService {
-  constructor(private apiUrl: string) {
-    this.apiUrl = apiUrl;
-  }
-
-  async getUser(id: number): Promise<User> {
-    if (!id) {
-      throw new Error('User ID is required');
-    }
-
-    const response = await fetch(`${this.apiUrl}/users/${id}`);
-    return response.json();
-  }
-}
-```
-
-### Python
-```python
-# Clean and readable Python code
-class DataProcessor:
-    def __init__(self, data_source: str):
-        self.data_source = data_source
-
-    def process_data(self, filters: dict) -> list:
-        if not filters:
-            return []
-
-        for item in self.data:
-            if self._matches_filter(item, filters):
-                yield self._transform_item(item)
-```
 
 ## 🛠️ Customization
 
@@ -116,7 +88,7 @@ This theme is licensed under the [MIT License](LICENSE).
 
 ## 🙏 Acknowledgments
 
-- Inspired by the original Monokai theme
+- Inspired by One Monokai theme
 - Color palette influenced by One Dark Pro and Atom One Dark
 - Thanks to the VS Code community for feedback and suggestions
 

@@ -23,7 +23,7 @@
     "editorGroupHeader.tabsBackground": "#21252B",
     "editorIndentGuide.background1": "#353a42",
     "editorIndentGuide.activeBackground1": "#4a5162",
-    "editorHoverWidget.background": "#21252B",
+    "editorHoverWidget.background": "#1A1D23",
     "editorHoverWidget.border": "#15171C",
     "editorLineNumber.foreground": "#4a5162",
     "editorRuler.foreground": "#404040",
@@ -259,11 +259,21 @@
       "name": "Other variable",
       "scope": [
         "variable.other",
-        "variable.other.property",
         "variable.other.block"
       ],
       "settings": {
         "foreground": "#abb2bf"
+      }
+    },
+    {
+      "name": "Object Properties and Methods",
+      "scope": [
+        "variable.other.property",
+        "variable.other.property.python",
+        "meta.attribute.python"
+      ],
+      "settings": {
+        "foreground": "#98c379"
       }
     },
     {
@@ -291,8 +301,7 @@
         "support.function"
       ],
       "settings": {
-        "foreground": "#98c379",
-        "fontStyle": "bold"
+        "foreground": "#98c379"
       }
     },
     {
@@ -309,16 +318,38 @@
     },
     {
       "name": "Function call",
-      "scope": "entity.name.function-call",
+      "scope": [
+        "entity.name.function-call",
+        "variable.function",
+        "meta.function-call.python",
+        "meta.function-call.generic.python"
+      ],
       "settings": {
-        "foreground": "#abb2bf"
+        "foreground": "#98c379"
       }
     },
     {
       "name": "Builtin Functions",
       "scope": [
         "function.support.builtin",
-        "function.support.core"
+        "function.support.core",
+        "support.function.builtin.python",
+        "support.function.magic.python"
+      ],
+      "settings": {
+        "foreground": "#98c379"
+      }
+    },
+    {
+      "name": "Python Method Calls",
+      "scope": [
+        "meta.function-call.python variable.function.python",
+        "meta.function-call.arguments.python variable.function.python",
+        "variable.function.python",
+        "meta.function-call.python",
+        "meta.function-call.generic.python",
+        "support.function.python",
+        "variable.other.property.python"
       ],
       "settings": {
         "foreground": "#98c379"
@@ -331,8 +362,7 @@
         "entity.name.tag.class.js"
       ],
       "settings": {
-        "foreground": "#e06c75",
-        "fontStyle": "bold"
+        "foreground": "#e06c75"
       }
     },
     {

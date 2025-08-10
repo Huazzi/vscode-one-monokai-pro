@@ -1,8 +1,8 @@
 # Change Log
 
-All notable changes to the "One Monokai Darker" extension will be documented in this file.
+All notable changes to the "One Monokai Pro" extension will be documented in this file.
 
-## [0.1.1] - 2025-08-09
+## [0.1.2] - 2025-08-10
 
 ### 🎉 Initial Release
 
@@ -72,6 +72,6 @@ All notable changes to the "One Monokai Darker" extension will be documented in 
 
 ## 📝 Notes
 
-This theme is inspired by the classic Monokai color scheme but enhanced with modern development practices in mind. The bold keyword feature is designed to improve code readability and help developers quickly identify code structure and control flow.
+This theme is inspired by One Monokai color scheme but enhanced with modern development practices in mind. The bold keyword feature is designed to improve code readability and help developers quickly identify code structure and control flow.
 
 For bug reports and feature requests, please visit our [GitHub repository](https://github.com/Huazzi/vscode-one-monokai-darker).

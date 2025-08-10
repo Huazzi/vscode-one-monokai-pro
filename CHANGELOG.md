@@ -2,7 +2,7 @@
 
 All notable changes to the "One Monokai Pro" extension will be documented in this file.
 
-## [0.1.2] - 2025-08-10
+## [0.1.3] - 2025-08-10
 
 ### 🎉 Initial Release
 

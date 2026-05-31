@@ -56,7 +56,7 @@ All notable changes to the "One Monokai Pro" extension will be documented in thi
 
 ## 🔮 Future Plans
 
-### Planned for v0.1.2
+### Planned for v0.2.0
 - [ ] Additional language-specific optimizations
 - [ ] Light theme variant
 - [ ] High contrast accessibility option
@@ -74,4 +74,4 @@ All notable changes to the "One Monokai Pro" extension will be documented in thi
 
 This theme is inspired by One Monokai color scheme but enhanced with modern development practices in mind. The bold keyword feature is designed to improve code readability and help developers quickly identify code structure and control flow.
 
-For bug reports and feature requests, please visit our [GitHub repository](https://github.com/Huazzi/vscode-one-monokai-darker).
+For bug reports and feature requests, please visit our [GitHub repository](https://github.com/Huazzi/vscode-one-monokai-pro).

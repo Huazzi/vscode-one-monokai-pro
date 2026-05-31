@@ -4,13 +4,13 @@ A beautiful dark theme for Visual Studio Code inspired by [One Monokai](https://
 
 ## 📸 Screenshots
 - C/C++
-![C/C++](https://cdn.jsdelivr.net/gh/Huazzi/myImg@main/projects/screenshop1.png)
+![C/C++](./assets/screenshot1.png)
 
 - Python
-![Python](https://cdn.jsdelivr.net/gh/Huazzi/myImg@main/projects/screenshop3.png)
+![Python](./assets/screenshot3.png)
 
 - JS
-![JS](https://cdn.jsdelivr.net/gh/Huazzi/myImg@main/projects/screenshop2.png)
+![JS](./assets/screenshot2.png)
 
 ## ✨ Features
 
@@ -26,8 +26,7 @@ A beautiful dark theme for Visual Studio Code inspired by [One Monokai](https://
 1. Open **Extensions** sidebar panel in VS Code (`Ctrl+Shift+X`)
 2. Search for `One Monokai Pro`
 3. Click **Install**
-4. Click **Reload** to reload VS Code
-5. Go to **File > Preferences > Color Theme** and select **One Monokai Pro**
+4. Go to **File > Preferences > Color Theme** and select **One Monokai Pro**
 
 ### Via Command Line
 ```bash
@@ -38,12 +37,13 @@ code --install-extension zzhua095.one-monokai-pro
 
 | Element | Color | Usage |
 |---------|-------|-------|
-| **Background** | `#1e2227` | Editor background |
+| **Background** | `#181818` | Editor background |
 | **Foreground** | `#abb2bf` | Default text |
 | **Keywords** | `#e06c75` | Control flow, storage keywords (bold) |
 | **Strings** | `#e5c07b` | String literals |
 | **Functions** | `#98c379` | Function names (bold) |
-| **Classes** | `#61afef` | Class names, types (bold) |
+| **Classes** | `#61afef` | Class names (bold) |
+| **Types** | `#56b6c2` | Type keywords (bold) |
 | **Constants** | `#56b6c2` | Built-in constants (bold) |
 | **Numbers** | `#c678dd` | Numeric values |
 | **Comments** | `#676f7d` | Code comments |
@@ -60,7 +60,7 @@ code --install-extension zzhua095.one-monokai-pro
 ### Optimized for Modern Development
 - Perfect for React, Vue, Angular development
 - Excellent TypeScript support
-- Great for Python, Go, Rust, and other languages
+- Works well with Python, Go, Rust, and other languages
 - Markdown support with proper emphasis
 
 
@@ -71,7 +71,7 @@ You can customize this theme by adding the following to your `settings.json`:
 ```json
 {
   "editor.tokenColorCustomizations": {
-    "[One Monokai Darker]": {
+    "[One Monokai Pro]": {
       "comments": "#your-color-here"
     }
   }
@@ -80,7 +80,7 @@ You can customize this theme by adding the following to your `settings.json`:
 
 ## 🤝 Contributing
 
-Found a bug or have a suggestion? Please open an issue on [GitHub](https://github.com/Huazzi/vscode-one-monokai-darker/issues).
+Found a bug or have a suggestion? Please open an issue on [GitHub](https://github.com/Huazzi/vscode-one-monokai-pro/issues).
 
 ## 📄 License
 
@@ -97,6 +97,6 @@ This theme is licensed under the [MIT License](LICENSE).
 **Enjoy coding with One Monokai Pro!** 🚀
 
 If you like this theme, please consider:
-- ⭐ Starring the [GitHub repository](https://github.com/Huazzi/vscode-one-monokai-darker)
+- ⭐ Starring the [GitHub repository](https://github.com/Huazzi/vscode-one-monokai-pro)
 - 📝 Leaving a review on the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=zzhua095.one-monokai-pro)
 - 🐦 Sharing it with your developer friends

@@ -2,19 +2,19 @@
   "name": "one-monokai-pro",
   "displayName": "One Monokai Pro",
   "description": "🎨 A beautiful dark theme inspired by One Monokai with enhanced bold keywords and refined color palette for better code readability",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "publisher": "zzhua095",
   "author": {
     "name": "Huazzi"
   },
   "license": "MIT",
-  "homepage": "https://github.com/Huazzi/vscode-one-monokai-darker",
+  "homepage": "https://github.com/Huazzi/vscode-one-monokai-pro",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Huazzi/vscode-one-monokai-darker.git"
+    "url": "https://github.com/Huazzi/vscode-one-monokai-pro.git"
   },
   "bugs": {
-    "url": "https://github.com/Huazzi/vscode-one-monokai-darker/issues"
+    "url": "https://github.com/Huazzi/vscode-one-monokai-pro/issues"
   },
   "engines": {
     "vscode": "^1.54.0"
@@ -33,16 +33,16 @@
     "code editor"
   ],
   "galleryBanner": {
-    "color": "#1e2227",
+    "color": "#181818",
     "theme": "dark"
   },
   "icon": "icon.png",
   "contributes": {
     "themes": [
       {
-        "label": "One Monokai Darker",
+        "label": "One Monokai Pro",
         "uiTheme": "vs-dark",
-        "path": "./themes/OneMonokaiDarker-color-theme.json"
+        "path": "./themes/OneMonokaiPro-color-theme.json"
       }
     ]
   },
@@ -50,6 +50,6 @@
     "package": "vsce package"
   },
   "devDependencies": {
-    "vsce": "^2.15.0"
+    "@vscode/vsce": "^3.0.0"
   }
 }

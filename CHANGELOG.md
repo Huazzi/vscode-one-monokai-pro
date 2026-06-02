@@ -2,6 +2,29 @@
 
 All notable changes to the "One Monokai Pro" extension will be documented in this file.
 
+## [0.1.5] - 2026-06-02
+
+### 🎨 UI Enhancement: Panel Borders
+
+#### ✨ Added
+- **Panel border system**: Added visible border separators between major UI panels for clearer layout structure
+  - `sideBar.border` — Sidebar to editor divider
+  - `activityBar.border` — Activity bar to sidebar divider
+  - `panel.border` — Editor to bottom panel divider
+  - `statusBar.border` — Status bar separation line
+  - `sideBarTitle.border` — Sidebar title area separator
+  - `sideBarSectionHeader.border` — Sidebar section dividers
+  - `titleBar.border` — Title bar bottom border
+
+#### 🔧 Improved
+- **Upgraded invisible borders**: Replaced `#111111` (indistinguishable from background) with visible colors across all UI borders
+  - `editorGroup.border`: `#111111` → `#333333`
+  - `tab.border`: `#111111` → `#2a2a2a`
+  - `editorHoverWidget.border`: `#111111` → `#2a2a2a`
+  - `editorSuggestWidget.border`: `#111111` → `#2a2a2a`
+  - `dropdown.border`: `#111111` → `#2a2a2a`
+
+
 ## [0.1.3] - 2025-08-10
 
 ### 🎉 Initial Release
